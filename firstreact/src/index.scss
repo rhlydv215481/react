@@ -11,5 +11,9 @@ html,body{
    height: 100%;
    width: 100%;
     background: #E3F2FD;
-position: relative;
+// position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 0.5rem;
 }
