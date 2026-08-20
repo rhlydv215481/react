@@ -1,0 +1,34 @@
+.musices {
+  width: 40rem;
+  height: 25rem;
+  background: #000;
+  display: flex;
+}
+.musices .music {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid #273338;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+.musices .music img {
+  width: 100%;
+  height: 70%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 0.7rem;
+  flex-shrink: 0;
+}
+.musices .music h1 {
+  font-family: "Playwrite DE LA Guides";
+  font-size: 1.7rem;
+  flex-shrink: 0;
+}
+.musices .music p {
+  font-family: "Playwrite DE LA Guides";
+  font-size: 1rem;
+  flex-shrink: 0;
+}/*# sourceMappingURL=HADLLING.css.map */

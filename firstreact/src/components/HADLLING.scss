@@ -1,0 +1,39 @@
+.musices{
+    
+    width: 40rem;
+height: 25rem;
+background: #000;
+display: flex;
+    .music {
+       height: 100%;
+       width: 100%;
+        
+        overflow: hidden;
+        border: 1px solid #273338;
+        border-radius: 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.4rem;
+        
+        img {
+            width: 100%;
+            height: 70%;
+            object-fit: cover;
+            border-radius: 0.7rem;
+            // object-position: center;
+            flex-shrink: 0;
+        }
+        h1 {
+            font-family: "Playwrite DE LA Guides";
+            font-size: 1.7rem;
+            flex-shrink: 0;
+        }
+        
+        p {
+            font-family: "Playwrite DE LA Guides";
+            font-size: 1rem;
+            flex-shrink: 0;
+        }
+        
+    }
+}

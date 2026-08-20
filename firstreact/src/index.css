@@ -1,3 +1,4 @@
+ @import "tailwindcss";
 * {
   margin: 0%;
   padding: 0%;
@@ -16,5 +17,4 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 0.5rem;
 }/*# sourceMappingURL=index.css.map */

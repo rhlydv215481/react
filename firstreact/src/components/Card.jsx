@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Card.scss";
+import "./Button"
 // import App from '../App';
 const Card = () => {
     let data = [{
@@ -18,21 +19,22 @@ const Card = () => {
 
 ]
   return (
-    data.map((Element)=>
-        <div className="card ">
+<div className="cards">
+   { data.map((Element,index)=>
+        <div key={index} className="card ">
       <div className="img">
         <img
           src={Element.img}
           alt="Amazon Basic product"
         />
       </div>
-      <div className="cont  ">
+      <div className="cont ">
         <h1>Amazon Basic</h1>
         <p>
           Lorem quisquam perferendis veniam nulla excepturi ipsum mollitia erro
         </p>
       </div>
-      <button  className="cta"><span class="hover-underline-animation"> Known MORE </span>
+      <button   className="cta"><span class="hover-underline-animation"> Known MORE </span>
   <svg
     id="arrow-horizontal"
     xmlns="http://www.w3.org/2000/svg"
@@ -48,9 +50,9 @@ const Card = () => {
     ></path>
   </svg> </button>
     </div>
-    
-    )
-    // <h1>hello </h1>
+   
+    )}
+</div>    // <h1>hello </h1>
   )
 }
 
