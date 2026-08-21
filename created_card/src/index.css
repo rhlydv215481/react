@@ -1,0 +1,26 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+  padding: 3rem;
+  gap: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex: shrink 0;
+  justify-content: center;
+  align-items: center;
+  overflow-y: scroll;
+}
+#root::-webkit-scrollbar {
+  display: none;
+}/*# sourceMappingURL=index.css.map */
