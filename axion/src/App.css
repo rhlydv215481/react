@@ -1,0 +1,28 @@
+.app-container{
+padding: 1rem;
+/* overflow: hidden; */
+display:flex;
+/* flex-direction: column; */
+gap: 0.8rem;
+flex-wrap: wrap;
+height: 100%;
+width: 100%;
+  /* margin: 1rem; */
+}
+
+.card-contaoner{
+    display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  /* width: 100%; */
+}
+button{
+  height: auto;
+  width: 10rem;
+   border: solid white 2px;
+   font-size: 2rem;
+   padding: 0.7rem  1rem;
+   color: azure;
+   border-radius: 0.7rem;
+   background: #000;
+}
