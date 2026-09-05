@@ -1,0 +1,23 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background: #000;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+#root .page {
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  transform: translateY(1rem);
+  color: aliceblue;
+}/*# sourceMappingURL=index.css.map */

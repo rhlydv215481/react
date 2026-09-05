@@ -1,0 +1,16 @@
+.NAVBAR{
+    height: auto;
+    width: 100%;
+    color: #ced4da;
+    background: rgb(255, 0, 0,0.2);
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+    h1{
+        font-size: 2rem;
+    }
+    .links{
+        display: flex;
+        gap: 0.7rem;
+    }
+}
