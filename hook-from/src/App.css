@@ -1,0 +1,14 @@
+.app{
+  padding: 2rem;
+  display: flex;
+  
+  /* font-size: 3rem; */
+  color: azure; 
+}
+input{
+  font-size: 2rem;
+  color: blueviolet;
+}
+button{
+  font-size: 2rem;
+}
