@@ -1,0 +1,11 @@
+.nav{
+    height: 4rem;
+    width: 100%;
+    color: aliceblue;
+    background: #000;
+/* text-align: center; */
+    display:flex ;
+    align-items:center ;
+    padding: 0.4rem;
+    /* justify-content: center; */
+}
